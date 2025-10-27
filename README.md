@@ -38,7 +38,7 @@ http://localhost:8000/
 
 ## Screenshots
 
-![App Screenshot](./public/ss.png)
+![App Screenshot](./img-readme/ss.png)
 
 
 ## Note
