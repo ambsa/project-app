@@ -22,13 +22,14 @@ export default function TaskIndex() {
     tanggal_selesai?: string | null;
     pegawai?: Pegawai | null;
   }
-
-  interface PageProps {
-    [key: string]: any;
+ interface PageProps {
     task: Task[];
+    
+    [key: string]: unknown;
   }
 
   const { task } = usePage<PageProps>().props;
+ 
 
   // State untuk modal
   const [showCreateModal, setShowCreateModal] = useState(false);
