@@ -1,19 +1,47 @@
-# project-app
 
-1. Cara menjalankan proyek
+# Task Manager Sederhana
 
- 
-clone project terlebih dahulu melalui link berikut:
-https://github.com/ambsa/project-app.git
 
-kemudian bash pada projek kemudian install dependency laravel dengan melakukan
-- composer install
 
-lalu tak lupa untuk intall Dependency vite + react
-- npm install /pnpm install
 
-kemudian untuk menjalankan project bisa langsung jalankan perintah "php artisan serve" untuk laravel dan "pnpm run dev" untuk vite + react nya.
+## Run Locally
 
+Clone the project
+
+```bash
+  git clone https://github.com/ambsa/project-app.git
+```
+
+Go to the project directory
+
+```bash
+  cd project-app
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev & php artisan serve
+```
+
+
+## Demo
+
+http://localhost:8000/
+
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## Note
 
 Ahmad Fatah Maulana
 Membuat Task Manager sederhana
